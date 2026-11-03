@@ -1,0 +1,472 @@
+{
+	"name": "Pop Music Quiz",
+	"description": "How well do you know pop music?",
+	"icon": "images/music_quiz.png",
+	"category": "Pop Music",
+  	"difficulty": "easy",
+    "author": "ChatGPT",
+	
+	"ratings": {
+		"Top of the Pops":90,
+		"Radio 6 Music listener":70,
+		"You know some music stuff":50,
+		"Maybe you'd do better with classical?":30,
+		"Tone Deaf / Radio 1 DJ - You choose":0
+	},
+	"questions":[	
+  {
+    "id": 1,
+    "tags": ["1960s", "british_music", "albums"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which band released Sgt. Pepper's Lonely Hearts Club Band in 1967?",
+    "answerPicture": "quizzes/Pop_Music/images/Beatles.jpg",
+    "answers": [
+      {"text": "The Rolling Stones", "comment": "The Rolling Stones released Their Satanic Majesties Request in 1967."},
+      {"text": "The Beatles", "comment": "Correct! The Beatles released Sgt. Pepper's Lonely Hearts Club Band in June 1967.", "isCorrect": true},
+      {"text": "The Kinks", "comment": "The Kinks released Something Else by The Kinks in 1967."},
+      {"text": "The Who", "comment": "The Who released The Who Sell Out in 1967."}
+    ]
+  },
+  {
+    "id": 2,
+    "tags": ["1960s", "rock", "singles"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which band recorded the 1965 hit (I Can't Get No) Satisfaction?",
+    "answerPicture": "quizzes/Pop_Music/images/Rolling Stones.jpg",
+    "answers": [
+      {"text": "The Animals", "comment": "The Animals were known for their recording of The House of the Rising Sun."},
+      {"text": "The Beatles", "comment": "The Beatles released hits including Ticket to Ride in 1965."},
+      {"text": "The Rolling Stones", "comment": "Correct! The Rolling Stones released Satisfaction in 1965.", "isCorrect": true},
+      {"text": "The Hollies", "comment": "The Hollies had hits including I'm Alive in 1965."}
+    ]
+  },
+  {
+    "id": 3,
+    "tags": ["1960s", "rock", "artists"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which guitarist released the album Are You Experienced in 1967?",
+    "answerPicture": "quizzes/Pop_Music/images/Jimi.jpg",
+    "answers": [
+      {"text": "Eric Clapton", "comment": "Eric Clapton played with Cream, whose debut album was Fresh Cream."},
+      {"text": "Jeff Beck", "comment": "Jeff Beck released Truth with his group in 1968."},
+      {"text": "Jimmy Page", "comment": "Jimmy Page became famous as the guitarist of Led Zeppelin."},
+      {"text": "Jimi Hendrix", "comment": "Correct! The Jimi Hendrix Experience released Are You Experienced in 1967.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 4,
+    "tags": ["1960s", "motown", "artists"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which Motown group recorded My Girl?",
+    "answerPicture": "quizzes/Pop_Music/images/The Temptations.png",
+    "answers": [
+      {"text": "The Four Tops", "comment": "The Four Tops recorded hits including Reach Out I'll Be There."},
+      {"text": "The Temptations", "comment": "Correct! The Temptations released My Girl in 1964.", "isCorrect": true},
+      {"text": "The Supremes", "comment": "The Supremes recorded hits including Baby Love and Stop! In the Name of Love."},
+      {"text": "The Jackson 5", "comment": "The Jackson 5 became successful later in the 1960s, with I Want You Back released in 1969."}
+    ]
+  },
+  {
+    "id": 5,
+    "tags": ["1960s", "music_history", "festivals"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "picture": "quizzes/Pop_Music/images/Woodstock.png",
+    "question": "In which year was the famous Woodstock music festival held?",
+    "answers": [
+      {"text": "1967", "comment": "The Monterey Pop Festival took place in 1967."},
+      {"text": "1968", "comment": "Woodstock was held the following year."},
+      {"text": "1969", "comment": "Correct! Woodstock took place in August 1969.", "isCorrect": true},
+      {"text": "1970", "comment": "The Isle of Wight Festival took place in 1970."}
+    ]
+  },
+  {
+    "id": 6,
+    "tags": ["1970s", "rock", "singles"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which band released Bohemian Rhapsody in 1975?",
+    "answerPicture": "quizzes/Pop_Music/images/Queen.jpg",
+    "answers": [
+      {"text": "Queen", "comment": "Correct! Queen released Bohemian Rhapsody on the album A Night at the Opera.", "isCorrect": true},
+      {"text": "Electric Light Orchestra", "comment": "ELO released songs including Evil Woman in 1975."},
+      {"text": "10cc", "comment": "10cc had hits including I'm Not in Love in 1975."},
+      {"text": "Supertramp", "comment": "Supertramp released Crisis? What Crisis? in 1975."}
+    ]
+  },
+  {
+    "id": 7,
+    "tags": ["1970s", "albums", "american_music"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which band released the album Rumours in 1977?",
+    "answerPicture": "quizzes/Pop_Music/images/Rumours.png",
+    "answers": [
+      {"text": "The Eagles", "comment": "The Eagles released Hotel California in 1976."},
+      {"text": "Fleetwood Mac", "comment": "Correct! Fleetwood Mac released Rumours in 1977.", "isCorrect": true},
+      {"text": "The Doobie Brothers", "comment": "The Doobie Brothers released Livin' on the Fault Line in 1977."},
+      {"text": "Steely Dan", "comment": "Steely Dan released Aja in 1977."}
+    ]
+  },
+  {
+    "id": 8,
+    "tags": ["1970s", "punk", "british_music"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which British punk band released Anarchy in the U.K. in 1976?",
+    "answerPicture": "quizzes/Pop_Music/images/Sex Pistols.png",
+    "answers": [
+      {"text": "The Clash", "comment": "The Clash released their debut single White Riot in 1977."},
+      {"text": "The Damned", "comment": "The Damned released New Rose in 1976, an influential early British punk single."},
+      {"text": "Buzzcocks", "comment": "Buzzcocks released their Spiral Scratch EP in 1977."},
+      {"text": "Sex Pistols", "comment": "Correct! The Sex Pistols released Anarchy in the U.K. in November 1976.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 9,
+    "tags": ["1970s", "disco", "soundtracks"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which film featured the Bee Gees songs Stayin' Alive and Night Fever?",
+    "answerPicture": "quizzes/Pop_Music/images/Saturday Night Fever.jpg",
+    "answers": [
+      {"text": "Grease", "comment": "Grease featured songs such as You're the One That I Want."},
+      {"text": "Saturday Night Fever", "comment": "Correct! Saturday Night Fever was released in 1977 and featured the Bee Gees.", "isCorrect": true},
+      {"text": "Thank God It's Friday", "comment": "This 1978 film also explored disco culture, but it was not the film associated with those Bee Gees hits."},
+      {"text": "The Last Waltz", "comment": "The Last Waltz is a concert film about The Band's farewell performance."}
+    ]
+  },
+  {
+    "id": 10,
+    "tags": ["1970s", "british_music", "artists"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Who released the album Hunky Dory in 1971?",
+    "answers": [
+      {"text": "Marc Bolan", "comment": "Marc Bolan was the frontman of T. Rex, known for Electric Warrior."},
+      {"text": "Elton John", "comment": "Elton John released Madman Across the Water in 1971."},
+      {"text": "David Bowie", "comment": "Correct! David Bowie released Hunky Dory in 1971.", "isCorrect": true},
+      {"text": "Bryan Ferry", "comment": "Bryan Ferry later released solo albums alongside his work with Roxy Music."}
+    ]
+  },
+  {
+    "id": 11,
+    "tags": ["1980s", "pop", "albums"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Who released the album Thriller in 1982?",
+    "answerPicture": "quizzes/Pop_Music/images/Thriller.png",
+    "answers": [
+      {"text": "Prince", "comment": "Prince released 1999 in 1982."},
+      {"text": "Lionel Richie", "comment": "Lionel Richie released his self-titled solo debut album in 1982."},
+      {"text": "Michael Jackson", "comment": "Correct! Michael Jackson released Thriller in November 1982.", "isCorrect": true},
+      {"text": "Stevie Wonder", "comment": "Stevie Wonder released Original Musiquarium I in 1982."}
+    ]
+  },
+  {
+    "id": 12,
+    "tags": ["1980s", "pop", "artists"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which singer recorded the hit Girls Just Want to Have Fun?",
+    "answerPicture": "quizzes/Pop_Music/images/Girls just want to have fun.jpg",
+    "answers": [
+      {"text": "Belinda Carlisle", "comment": "Belinda Carlisle later released solo hits including Heaven Is a Place on Earth."},
+      {"text": "Cyndi Lauper", "comment": "Correct! Cyndi Lauper released Girls Just Want to Have Fun in 1983.", "isCorrect": true},
+      {"text": "Kim Wilde", "comment": "Kim Wilde had hits including Kids in America."},
+      {"text": "Pat Benatar", "comment": "Pat Benatar recorded hits including Love Is a Battlefield."}
+    ]
+  },
+  {
+    "id": 13,
+    "tags": ["1980s", "british_music", "albums"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which singer released the album Hounds of Love in 1985?",
+    "answerPicture": "quizzes/Pop_Music/images/Hounds of Love.png",
+    "answers": [
+      {"text": "Annie Lennox", "comment": "Annie Lennox was part of Eurythmics and later released solo albums."},
+      {"text": "Kate Bush", "comment": "Correct! Kate Bush released Hounds of Love in 1985.", "isCorrect": true},
+      {"text": "Alison Moyet", "comment": "Alison Moyet released her solo debut Alf in 1984."},
+      {"text": "Siouxsie Sioux", "comment": "Siouxsie Sioux was the lead singer of Siouxsie and the Banshees."}
+    ]
+  },
+  {
+    "id": 14,
+    "tags": ["1980s", "music_history", "charity"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which two cities hosted the main Live Aid concerts in 1985?",
+    "answers": [
+      {"text": "London and Philadelphia", "comment": "Correct! The main Live Aid concerts took place at Wembley Stadium in London and JFK Stadium in Philadelphia.", "isCorrect": true},
+      {"text": "London and New York", "comment": "New York was not one of the two main Live Aid concert locations."},
+      {"text": "Manchester and Los Angeles", "comment": "Neither city hosted one of the two main Live Aid concerts."},
+      {"text": "Glasgow and Chicago", "comment": "Neither Glasgow nor Chicago hosted one of the two main Live Aid concerts."}
+    ]
+  },
+  {
+    "id": 15,
+    "tags": ["1980s", "rock", "albums"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which band released The Joshua Tree in 1987?",
+    "answerPicture": "quizzes/Pop_Music/images/Joshua Tree.png",
+    "answers": [
+      {"text": "Simple Minds", "comment": "Simple Minds released Once Upon a Time in 1985."},
+      {"text": "U2", "comment": "Correct! U2 released The Joshua Tree in March 1987.", "isCorrect": true},
+      {"text": "Dire Straits", "comment": "Dire Straits released Brothers in Arms in 1985."},
+      {"text": "The Cure", "comment": "The Cure released Kiss Me, Kiss Me, Kiss Me in 1987."}
+    ]
+  },
+  {
+    "id": 16,
+    "tags": ["1990s", "grunge", "albums"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which band released Nevermind in 1991?",
+    "answerPicture": "quizzes/Pop_Music/images/Nevermind.jpg",
+    "answers": [
+      {"text": "Pearl Jam", "comment": "Incorrect, Pearl Jam released Ten in 1991."},
+      {"text": "Soundgarden", "comment": "Sorry, Soundgarden released Badmotorfinger in 1991."},
+      {"text": "Nirvana", "comment": "Correct! Nirvana released Nevermind in September 1991.", "isCorrect": true},
+      {"text": "Alice in Chains", "comment": "Nope, Alice in Chains released Facelift in 1990."}
+    ]
+  },
+  {
+    "id": 17,
+    "tags": ["1990s", "britpop", "singles"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which band released the single Common People in 1995?",
+    "answerPicture": "quizzes/Pop_Music/images/Pulp.png",
+    "answers": [
+      {"text": "Blur", "comment": "Blur released Country House in 1995."},
+      {"text": "Oasis", "comment": "Oasis released Roll with It in 1995."},
+      {"text": "Suede", "comment": "Suede released The Wild Ones in 1994."},
+      {"text": "Pulp", "comment": "Correct! Pulp released Common People in 1995.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 18,
+    "tags": ["1990s", "pop", "british_music"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which girl group released Wannabe in 1996?",
+    "answers": [
+      {"text": "All Saints", "comment": "All Saints released their debut single I Know Where It's At in 1997."},
+      {"text": "Spice Girls", "comment": "Correct! Wannabe was the Spice Girls' debut single, released in 1996.", "isCorrect": true},
+      {"text": "Sugababes", "comment": "The Sugababes released their debut single Overload in 2000."},
+      {"text": "Atomic Kitten", "comment": "Atomic Kitten released their debut single Right Now in 1999."}
+    ]
+  },
+  {
+    "id": 19,
+    "tags": ["1990s", "alternative_rock", "albums"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which band released OK Computer in 1997?",
+    "answerPicture": "quizzes/Pop_Music/images/ok computer.png",
+    "answers": [
+      {"text": "Radiohead", "comment": "Correct! Radiohead released OK Computer in 1997.", "isCorrect": true},
+      {"text": "The Verve", "comment": "The Verve released Urban Hymns in 1997."},
+      {"text": "R.E.M.", "comment": "R.E.M. released New Adventures in Hi-Fi in 1996."},
+      {"text": "The Smashing Pumpkins", "comment": "The Smashing Pumpkins released Adore in 1998."}
+    ]
+  },
+  {
+    "id": 20,
+    "tags": ["1990s", "dance_music", "artists"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which French electronic music duo released Homework in 1997?",
+    "answers": [
+      {"text": "Air", "comment": "Air released their debut album Moon Safari in 1998."},
+      {"text": "Justice", "comment": "Justice released their debut album Cross in 2007."},
+      {"text": "Daft Punk", "comment": "Correct! Daft Punk released Homework in 1997.", "isCorrect": true},
+      {"text": "Cassius", "comment": "Cassius released their debut album 1999 in 1999."}
+    ]
+  },
+  {
+    "id": 21,
+    "tags": ["2000s", "british_music", "albums"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "What was the title of Coldplay's debut studio album, released in 2000?",
+    "answers": [
+      {"text": "A Rush of Blood to the Head", "comment": "Coldplay released A Rush of Blood to the Head in 2002."},
+      {"text": "X&Y", "comment": "Coldplay released X&Y in 2005."},
+      {"text": "Parachutes", "comment": "Correct! Coldplay released Parachutes in July 2000.", "isCorrect": true},
+      {"text": "Viva la Vida or Death and All His Friends", "comment": "Coldplay released Viva la Vida or Death and All His Friends in 2008."}
+    ]
+  },
+  {
+    "id": 22,
+    "tags": ["2000s", "indie_rock", "british_music"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which band released the single I Bet You Look Good on the Dancefloor in 2005?",
+    "answerPicture": "quizzes/Pop_Music/images/Arctic Monkeys.png",
+    "answers": [
+      {"text": "Franz Ferdinand", "comment": "Franz Ferdinand released Take Me Out in 2004."},
+      {"text": "Kaiser Chiefs", "comment": "Kaiser Chiefs released I Predict a Riot in 2004."},
+      {"text": "The Libertines", "comment": "The Libertines released Can't Stand Me Now in 2004."},
+      {"text": "Arctic Monkeys", "comment": "Correct! I Bet You Look Good on the Dancefloor was Arctic Monkeys' debut single.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 23,
+    "tags": ["2000s", "soul", "british_music"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Who released the album Back to Black in 2006?",
+    "answers": [
+      {"text": "Duffy", "comment": "Duffy released Rockferry in 2008."},
+      {"text": "Amy Winehouse", "comment": "Correct! Amy Winehouse released Back to Black in 2006.", "isCorrect": true},
+      {"text": "Lily Allen", "comment": "Lily Allen released Alright, Still in 2006."},
+      {"text": "Joss Stone", "comment": "Joss Stone released Introducing Joss Stone in 2007."}
+    ]
+  },
+  {
+    "id": 24,
+    "tags": ["2000s", "pop", "american_music"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which singer released the hit single Single Ladies (Put a Ring on It) in 2008?",
+    "answers": [
+      {"text": "Rihanna", "comment": "Rihanna released hits including Umbrella and Disturbia."},
+      {"text": "Beyoncé", "comment": "Correct! Beyoncé released Single Ladies (Put a Ring on It) in 2008.", "isCorrect": true},
+      {"text": "Alicia Keys", "comment": "Alicia Keys released No One in 2007."},
+      {"text": "Christina Aguilera", "comment": "Christina Aguilera released Keeps Gettin' Better in 2008."}
+    ]
+  },
+  {
+    "id": 25,
+    "tags": ["2010s", "pop", "albums"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which singer released the album 21 in 2011?",
+    "answers": [
+      {"text": "Adele", "comment": "Correct! Adele released 21 in 2011, featuring Rolling in the Deep and Someone Like You.", "isCorrect": true},
+      {"text": "Duffy", "comment": "Duffy released Rockferry in 2008."},
+      {"text": "Florence Welch", "comment": "Florence + the Machine released Ceremonials in 2011."},
+      {"text": "Emeli Sandé", "comment": "Emeli Sandé released Our Version of Events in 2012."}
+    ]
+  },
+  {
+    "id": 26,
+    "tags": ["2010s", "dance_music", "singles"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which French electronic duo collaborated with Pharrell Williams on Get Lucky in 2013?",
+    "answers": [
+      {"text": "Justice", "comment": "Justice are a French electronic duo known for D.A.N.C.E."},
+      {"text": "Air", "comment": "Air are known for electronic music including the album Moon Safari."},
+      {"text": "Daft Punk", "comment": "Correct! Daft Punk released Get Lucky featuring Pharrell Williams and Nile Rodgers.", "isCorrect": true},
+      {"text": "The Chemical Brothers", "comment": "The Chemical Brothers are an English electronic music duo."}
+    ]
+  },
+  {
+    "id": 27,
+    "tags": ["2010s", "pop", "singles"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which singer released Shape of You in 2017?",
+    "answers": [
+      {"text": "Sam Smith", "comment": "Sam Smith released Too Good at Goodbyes in 2017."},
+      {"text": "Ed Sheeran", "comment": "Correct! Ed Sheeran released Shape of You in January 2017.", "isCorrect": true},
+      {"text": "Justin Bieber", "comment": "Justin Bieber released Love Yourself in 2015."},
+      {"text": "Shawn Mendes", "comment": "Shawn Mendes released There's Nothing Holdin' Me Back in 2017."}
+    ]
+  },
+  {
+    "id": 28,
+    "tags": ["2010s", "contemporary_pop", "artists"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Who released the debut studio album When We All Fall Asleep, Where Do We Go? in 2019?",
+    "answerPicture": "quizzes/Pop_Music/images/Billie Eilish.png",
+    "answers": [
+      {"text": "Lorde", "comment": "Lorde released Melodrama in 2017."},
+      {"text": "Halsey", "comment": "Halsey released Manic in 2020."},
+      {"text": "Billie Eilish", "comment": "Correct! Billie Eilish released her debut studio album in March 2019.", "isCorrect": true},
+      {"text": "Lana Del Rey", "comment": "Lana Del Rey released Norman Fucking Rockwell! in 2019."}
+    ]
+  },
+  {
+    "id": 29,
+    "tags": ["2020s", "pop", "albums"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which artist released the album Future Nostalgia in 2020?",
+    "answers": [
+      {"text": "Dua Lipa", "comment": "Correct! Dua Lipa released Future Nostalgia in March 2020.", "isCorrect": true},
+      {"text": "Jessie Ware", "comment": "Jessie Ware released What's Your Pleasure? in 2020."},
+      {"text": "Charli XCX", "comment": "Charli XCX released how i'm feeling now in 2020."},
+      {"text": "Rina Sawayama", "comment": "Rina Sawayama released her debut album SAWAYAMA in 2020."}
+    ]
+  },
+  {
+    "id": 30,
+    "tags": ["2020s", "pop", "artists"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which artist released the album Harry's House in 2022?",
+    "answers": [
+      {"text": "Niall Horan", "comment": "Niall Horan released Heartbreak Weather in 2020."},
+      {"text": "Harry Styles", "comment": "Correct! Harry Styles released Harry's House in May 2022.", "isCorrect": true},
+      {"text": "Shawn Mendes", "comment": "Shawn Mendes released Wonder in 2020."},
+      {"text": "Charlie Puth", "comment": "Charlie Puth released Charlie in 2022."}
+    ]
+  },
+  {
+    "id": 31,
+    "tags": ["1980s", "TV", "artists"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which famous musician narated Thomas the Tank Engine from 1986-1989",
+    "picture": "quizzes/Pop_Music/images/Thomas.png",
+    "answerPicture": "quizzes/Pop_Music/images/RingoStarrThomas.png",
+    "answers": [
+      {"text": "Ringo Starr", "comment": "Correct! Ringo Starr narated the first two seasons of Thomas the Tank Engine.", "isCorrect": true},
+      {"text": "David Bowie", "comment": "Not right, but David Bowie filmed a special live-action introduction for the US television broadcast of the animated holiday classic The Snowman."},
+      {"text": "Paul McCartney", "comment": "Wrong Beatle! Paul McCartney voiced Rupert Bear in the 1984 animated short film Rupert and the Frog Song"},
+      {"text": "Elton John", "comment": "Not correct, but Elton John voiced an animated character named John Elton in Bob the Builder: A Christmas to Remember."}
+    ]
+  }
+]
+}

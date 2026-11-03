@@ -1,0 +1,1 @@
+DEFAULT_THEME = "themes/default/theme.json"

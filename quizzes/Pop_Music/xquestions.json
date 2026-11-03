@@ -1,0 +1,158 @@
+{
+	"name": "Pop Music Quiz",
+	"description": "How well do you know pop music?",
+	"icon": "images/music_quiz.png",
+	"category": "Pop Music",
+  	"difficulty": "easy",
+    "author": "ChatGPT",
+	
+	"ratings": {
+		"Top of the Pops":90,
+		"Radio 6 Music listener":70,
+		"You know some music stuff":50,
+		"Maybe you'd do better with classical?":30,
+		"Tone Deaf / Radio 1 DJ - You choose":0
+	},
+	"questions":[	
+        {
+            "id": 1,
+            "tags": ["1960s", "british_music", "bands"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Which band released the album Revolver in 1966?",
+            "answers": [
+            {"text": "The Rolling Stones", "comment": "The Rolling Stones released Aftermath in 1966."},
+            {"text": "The Kinks", "comment": "The Kinks released Face to Face in 1966."},
+            {"text": "The Beatles", "comment": "Correct! The Beatles released Revolver in August 1966.", "isCorrect": true},
+            {"text": "The Who", "comment": "The Who released their debut album My Generation in 1965."}
+            ]
+        },
+        {
+            "id": 2,
+            "tags": ["1970s", "rock", "albums"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Which band recorded the album The Dark Side of the Moon?",
+            "answers": [
+            {"text": "Led Zeppelin", "comment": "Led Zeppelin released albums including Houses of the Holy and Physical Graffiti."},
+            {"text": "Pink Floyd", "comment": "Correct! Pink Floyd released The Dark Side of the Moon in 1973.", "isCorrect": true},
+            {"text": "Deep Purple", "comment": "Deep Purple were known for albums such as Machine Head."},
+            {"text": "Genesis", "comment": "Genesis released progressive rock albums including Selling England by the Pound."}
+            ]
+        },
+        {
+            "id": 3,
+            "tags": ["1970s", "disco", "artists"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Which group had a worldwide disco hit with Stayin' Alive?",
+            "answers": [
+            {"text": "ABBA", "comment": "ABBA had hits including Dancing Queen and Mamma Mia."},
+            {"text": "Boney M.", "comment": "Boney M. had hits including Rivers of Babylon and Rasputin."},
+            {"text": "Chic", "comment": "Chic recorded disco classics including Le Freak and Good Times."},
+            {"text": "Bee Gees", "comment": "Correct! The Bee Gees recorded Stayin' Alive for the Saturday Night Fever soundtrack.", "isCorrect": true}
+            ]
+        },
+        {
+            "id": 4,
+            "tags": ["1980s", "pop", "artists"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Who released the album Like a Virgin in 1984?",
+            "answers": [
+            {"text": "Cyndi Lauper", "comment": "Cyndi Lauper released She's So Unusual in 1983."},
+            {"text": "Madonna", "comment": "Correct! Madonna released Like a Virgin in 1984.", "isCorrect": true},
+            {"text": "Whitney Houston", "comment": "Whitney Houston released her debut album in 1985."},
+            {"text": "Tina Turner", "comment": "Tina Turner released the successful album Private Dancer in 1984."}
+            ]
+        },
+        {
+            "id": 5,
+            "tags": ["1980s", "british_music", "rock"],
+            "difficulty": "medium",
+            "score": 20,
+            "type": "multiplechoice",
+            "question": "Which band released the album The Joshua Tree in 1987?",
+            "answers": [
+            {"text": "Simple Minds", "comment": "Simple Minds released albums including Once Upon a Time in 1985."},
+            {"text": "Dire Straits", "comment": "Dire Straits released Brothers in Arms in 1985."},
+            {"text": "U2", "comment": "Correct! U2 released The Joshua Tree in March 1987.", "isCorrect": true},
+            {"text": "The Cure", "comment": "The Cure released Kiss Me, Kiss Me, Kiss Me in 1987."}
+            ]
+        },
+        {
+            "id": 6,
+            "tags": ["1990s", "britpop", "bands"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Which Britpop band released the album Definitely Maybe in 1994?",
+            "answers": [
+            {"text": "Blur", "comment": "Blur released Parklife in 1994."},
+            {"text": "Pulp", "comment": "Pulp released His 'n' Hers in 1994."},
+            {"text": "Suede", "comment": "Suede released their self-titled debut album in 1993."},
+            {"text": "Oasis", "comment": "Correct! Definitely Maybe was Oasis's debut album, released in 1994.", "isCorrect": true}
+            ]
+        },
+        {
+            "id": 7,
+            "tags": ["1990s", "alternative_rock", "bands"],
+            "difficulty": "medium",
+            "score": 20,
+            "type": "multiplechoice",
+            "question": "Which band released the album OK Computer in 1997?",
+            "answers": [
+            {"text": "Radiohead", "comment": "Correct! Radiohead released OK Computer in 1997.", "isCorrect": true},
+            {"text": "The Verve", "comment": "The Verve released Urban Hymns in 1997."},
+            {"text": "Blur", "comment": "Blur released their self-titled album Blur in 1997."},
+            {"text": "R.E.M.", "comment": "R.E.M. released New Adventures in Hi-Fi in 1996."}
+            ]
+        },
+        {
+            "id": 8,
+            "tags": ["2000s", "pop", "artists"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Which singer released the album Back to Black in 2006?",
+            "answers": [
+            {"text": "Duffy", "comment": "Duffy released Rockferry in 2008."},
+            {"text": "Amy Winehouse", "comment": "Correct! Amy Winehouse released Back to Black in 2006.", "isCorrect": true},
+            {"text": "Lily Allen", "comment": "Lily Allen released Alright, Still in 2006."},
+            {"text": "Adele", "comment": "Adele released her debut album 19 in 2008."}
+            ]
+        },
+        {
+            "id": 9,
+            "tags": ["2010s", "pop", "artists"],
+            "difficulty": "medium",
+            "score": 20,
+            "type": "multiplechoice",
+            "question": "Which artist released the album 25 in 2015?",
+            "answers": [
+            {"text": "Taylor Swift", "comment": "Taylor Swift released 1989 in 2014."},
+            {"text": "Beyoncé", "comment": "Beyoncé released Lemonade in 2016."},
+            {"text": "Adele", "comment": "Correct! Adele released 25 in November 2015.", "isCorrect": true},
+            {"text": "Lady Gaga", "comment": "Lady Gaga released Joanne in 2016."}
+            ]
+        },
+        {
+            "id": 10,
+            "tags": ["2020s", "contemporary_pop", "artists"],
+            "difficulty": "medium",
+            "score": 20,
+            "type": "multiplechoice",
+            "question": "Which artist released the album Midnights in 2022?",
+            "answers": [
+            {"text": "Dua Lipa", "comment": "Dua Lipa released Future Nostalgia in 2020."},
+            {"text": "Olivia Rodrigo", "comment": "Olivia Rodrigo released SOUR in 2021 and GUTS in 2023."},
+            {"text": "Billie Eilish", "comment": "Billie Eilish released Happier Than Ever in 2021."},
+            {"text": "Taylor Swift", "comment": "Correct! Taylor Swift released Midnights in October 2022.", "isCorrect": true}
+            ]
+        }
+        ]
+}

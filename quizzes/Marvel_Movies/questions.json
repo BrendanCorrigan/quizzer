@@ -1,0 +1,186 @@
+{
+	"name": "Marvel Movies Quiz",
+	"description": "How well do you know the Marvel Movie Universe?",
+	"icon": "images/marvel-logo.jpg",
+	"category": "Movies",
+	"difficulty": "medium",
+	
+	"ratings": {
+		"Avengers Assemble!":90,
+		"Hulk, Smash!":70,
+		"Agent of S.H.I.E.L.D":50,
+		"Read about these in the 'Guardian'":30,
+		"Have you seen a Marvel Movie?":0
+	},
+	
+	"questions":[
+	
+		{
+			"id": 1,
+			"tags": ["Marvel", "Movies", "Iron Man"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "What is the real name of Iron Man?",
+			"answers" :
+			[
+				{"text": "Bruce Banner", "comment": "Sorry, Bruce Banner is the real name of the Hulk."},
+				{"text": "Tony Stark", "comment": "Correct, Tony Stark is the billionaire genius who becomes Iron Man.", "isCorrect": true},
+				{"text": "Bruce Wayne", "comment": "Bruce Wayne is the real name of Batman, a DC Comics character!"},
+				{"text": "Steve Rogers", "comment": "Incorrect, Steve Rogers is the real name of Captain America."}
+			]
+		},
+
+        {
+			"id": 2,
+			"tags": ["Marvel", "Movies", "Directors"],
+			"difficulty": "hard",
+			"score": 30,
+			"type": "multiplechoice",
+			"question": "Who directed the first 'Avengers' movie in 2012?",
+			"answers" :
+			[
+				{"text": "Taika Waititi", "comment": "Sorry, not this time, Taika Waititi directed 'Thor: Ragnarok' and 'Thor: Love and Thunder'."},
+                {"text": "James Gunn", "comment": "Not correct. James Gunn directed 'Guardians of the Galaxy' (2014) and 'Guardians of the Galaxy Vol. 2' (2017)."},
+				{"text": "Jon Favreau", "comment": "Incorrect, Jon Favreau directed 'Iron Man' (2008) and Iron Man 2 (2010)."},
+                {"text": "Joss Whedon", "comment": "Correct, Joss Whedon directed both 'The Avengers' (2012) and 'Avengers: Age of Ultron' (2015).", "isCorrect": true}
+			]
+		},
+
+		{
+			"id": 3,
+			"tags": ["Marvel", "Movies", "Infinity Stones"],
+			"difficulty": "medium",
+			"score": 20,
+			"type": "multiplechoice",
+            "picture": "quizzes/Marvel_Movies/images/Paul_Bettany_as_Vision.jpg",
+			"question": "Which Infinity Stone does Vision have embedded in his forehead?",
+			"answers" :
+			[
+				{"text": "Mind Stone", "comment": "Correct, Vision is powered by the Mind Stone, originally housed in Loki’s scepter.", "isCorrect": true},
+                {"text": "Power Stone", "comment": "Sorry, not the right stone! The Power Stone was housed in the Orb, and later kept on Xandar by the Nova Corps."},
+                {"text": "Time Stone", "comment": "Not correct. The Time Stone was housed in the Eye of Agamotto, used by Doctor Strange to manipulate time."},
+				{"text": "Earth Stone", "comment": "Way off, this stone does not exist in the Marvel Cinematic Universe."}
+			]
+		},
+
+		{
+			"id": 4,
+			"tags": ["Marvel", "Movies", "Thor"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "What is the name of Thor's hammer?",
+            "picture": "quizzes/Marvel_Movies/images/thor_hammer.jpg",
+			"answers" :
+			[
+				{"text": "Stormbreaker", "comment": "Close, Stormbreaker was the name of Thor's Axe."},
+                {"text": "Gungnir", "comment": "Sorry, Gungnir is the name of Odin's spear."},
+                {"text": "Hephaestus", "comment": "Sorry, wrong mythology. Hepheastus is the Greek god of blacksmiths and fire."},
+				{"text": "Mjolnir", "comment": "Correct, Mjolnir is Thor’s enchanted hammer.", "isCorrect": true}
+			]
+		},
+
+		{
+			"id": 5,
+			"tags": ["Marvel", "Movies", "Black Panther"],
+			"difficulty": "medium",
+			"score": 20,
+			"type": "multiplechoice",
+			"question": "Which Marvel movie introduced Black Panther?",
+            "picture": "quizzes/Marvel_Movies/images/Chadwick-Boseman-Black-Panther.jpg",
+			"answers" :
+			[
+				{"text": "Avengers: Age of Ultron", "comment": "Incorrect, Vision and Pietro & Wanda Maximoff (Quicksilver and Scarlet Witch) were introduced in Avengers: Age of Ultron. Black Panther was not in this movie."},
+                {"text": "Captain America: Civil War", "comment": "Correct, Black Panther first appeared in Captain America: Civil War (2016).", "isCorrect": true},
+                {"text": "Iron Man 3", "comment": "Incorrect, Black Panther does not appear in Iron Man 3."},
+				{"text": "Black Panther", "comment": "Sorry, although this is Black Panther's first solo movie, he was introduced earlier in the MCU."}
+			]
+		},
+
+		{
+			"id": 6,
+			"tags": ["Marvel", "Movies", "Guardians of the Galaxy"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "What is Peter Quill's alter ego?",
+            "picture": "quizzes/Marvel_Movies/images/peter_quill_starlord.jpg",
+			"answers" :
+			[
+				{"text": "Star-Lord", "comment": "Correct, Peter Quill often refers to himself as 'Star-Lord'", "isCorrect": true},
+                {"text": "Nova Prime", "comment": "Nope, Nova Prime is the leader of the Nova Corps, a intergalactic police force."},
+                {"text": "Rocket", "comment": "Incorrect, Rocket is the name of the genetically modified raccoon in Guardians of the Galaxy."},
+				{"text": "Ziggy Stardust", "comment": "Sorry, this was David Bowie's alter ego, not Peter Quill's."}
+			]
+		},
+
+		{
+			"id": 7,
+			"tags": ["Marvel", "Movies", "Iron Man"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "What is the name of the AI that replaces J.A.R.V.I.S. in Tonty Stark's Iron Man suits?",
+			"answers" :
+			[
+				{"text": "F.R.I.D.A.Y.", "comment": "F.R.I.D.A.Y. becomes Tony’s new AI assistant after J.A.R.V.I.S. evolves into Vision.", "isCorrect": true},
+                {"text": "E.D.I.T.H.", "comment": "Close, Even Dead, I'm The Hero (E.D.I.T.H.) is an AI created by Tony Stark and bequeathed to Peter Parker."},
+                {"text": "R.2.D.2.", "comment": "Way off... R2D2 is a droid from the Star Wars universe."},
+				{"text": "K.A.R.E.N.", "comment": "Just - Nope."}
+			]
+		},
+
+		{
+			"id": 8,
+			"tags": ["Marvel", "Movies", "Doctor Strange"],
+			"difficulty": "hard",
+			"score": 30,
+			"type": "multiplechoice",
+			"question": "In Doctor Strange, what is the name of the ancient relic that controls time?",
+            "picture": "quizzes/Marvel_Movies/images/dr-strange.jpg",
+			"answers" :
+			[
+				{"text": "The Book of Vishanti", "comment": "Close, but incorrect. The Book of Vishanti was an ancient book of knowledge referenced in Doctor Strange."},
+                {"text": "Surtur's Crown", "comment": "Sorry, this is the crown worn by the fire demon Surtur in Thor: Ragnarok."},
+                {"text": "Tesseract", "comment": "Incorrect, the tesseract houses the Space Stone."},
+				{"text": "The Eye of Agamotto", "comment": "Correct, The Eye of Agamotto houses the Time Stone.", "isCorrect": true}
+			]
+		},
+		{
+			"id": 9,
+			"tags": ["Marvel", "Movies", "Thor: Ragnarok"],
+			"difficulty": "medium",
+			"score": 20,
+			"type": "multiplechoice",
+			"question": "Which actor made a surprise cameo as Loki in the Asgardian stage play in Thor: Ragnarok?",
+            "answerPicture": "quizzes/Marvel_Movies/images/matt_damon_loki.jpg",
+			"answers" :
+			[
+				{"text": "Matt Damon", "comment": "Correct, Matt Damon played the actor portraying Loki in the humorous stage play on Asgard.", "isCorrect": true},
+                {"text": "Kevin Bacon", "comment": "Sorry, Kevin Bacon made a cameo appearance in The Guardians of the Galaxy Christmas Special."},
+                {"text": "Brad Pitt", "comment": "Nope, however, Brad Pitt 'appeared' in Deadpool 2 as the actor portraying Vanisher."},
+                {"text": "Luke Hemsworth", "comment": "Incorrect, Luke Hemsworth, brother of Chris, plays the Thor actor in the Asgardian stage play."}
+			]
+		},
+		{
+			"id": 10,
+			"tags": ["Marvel", "Movies", "Guardians of the Galaxy"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "What is the name of the intergalactic police force featured in Guardians of the Galaxy? ",
+            "answerPicture": "quizzes/Marvel_Movies/images/nova_corps.jpg",
+            "answers" :
+			[
+				{"text": "The Ravagers", "comment": "Incorrect, the Ravagers are a group of space pirates led by Yondu Udonta."},
+                {"text": "The Nova Corps", "comment": "Correct, The Nova Corps are the peacekeeping force on Xandar.", "isCorrect": true},
+                {"text": "The Sovereign", "comment": "Incorrect, the Sovereign are a genetically engineered race of beings led by Ayesha."},
+                {"text": "The Kree Guard", "comment": "Incorrect, the Kree Guard are the elite soldiers of the Kree Empire."}
+			]
+		}
+
+
+	]
+		
+}

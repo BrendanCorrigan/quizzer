@@ -1,0 +1,254 @@
+{
+	"name": "Solar System Quiz",
+	"description": "How well do you know the Solar System?",
+	"icon": "images/SolarSystem.png",
+	"xicon": "quizzes/Solar_System/images/SolarSystem.png",
+	"category": "Science",
+	
+	"ratings": {
+		"Steely-eyed missile man":90,
+		"Brian Cox better watch out!":70,
+		"Space Buff":50,
+		"Learned a lot from watching the 'clangers'":30,
+		"Flat Earther":0
+	},
+	
+	"questions":[
+	
+		{
+			"id": 1,
+			"tags": ["planets", "space", "science"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "What is the largest planet in the Solar System?",
+			"answers" :
+			[
+				{"text": "Saturn", "comment": "Nearly, Saturn is the second largest planet in the Solar System"},
+				{"text": "Neptune", "comment": "Neptune is the 4th largest planet in the Solar System."},
+				{"text": "Uranus", "comment": "Uranus is the 3rd largest planet in the Solar System."},
+				{"text": "Jupiter", "comment": "Correct! Jupiter is a gas giant with a mass greater than all the other planets combined.", "isCorrect": true}
+			]
+		},
+
+		{
+			"id": 2,
+			"tags": ["planets", "space", "science"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "Which planet is closest to the Sun?",
+			"answers" :
+			[
+				{"text": "Mercury", "comment": "Correct! Mercury is the smallest planet in the Solar System and closest to the sun.", "isCorrect":true},
+				{"text": "Venus", "comment": "Nearly! Venus is a rocky planet, about the same size as Earth, and 2nd planet from the Sun"},
+				{"text": "Earth", "comment": "Earth is a rocky planet, with an atmosphere and liquid water, and 3rd planet from the Sun."},
+				{"text": "Mars", "comment": "Mars is a rocky planet, smaller than Earth, and is 4th planet from the Sun."},
+				{"text": "Jupiter", "comment": "Jupiter is a gas giant planet, larger than all the other planets combined, and is 5th planet from the Sun."}
+			]
+		},
+		
+		{
+			"id": 3,
+			"tags": ["planets", "space", "science"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "How long does it take the moon to orbit the Earth?",
+			"answers" :
+			[
+				{"text": "About 27.5 days", "comment": "Correct! It takes 27.32 days for the moon to orbit the Earth, this is a lunar month.", "isCorrect":true},
+				{"text": "Exactly 24 hours","comment": "This is how long it takes the Earth to rotate once on its axis."},
+				{"text": "365.25 days", "comment": "This is how long it takes the Earth to orbit the Sun."},
+				{"text": "7 Days (1 week)", "comment": "Seven days is a week - it has no astrological meaning."}
+			]
+		},
+
+		{
+			"id": 4,
+			"tags": ["planets", "space", "science"],
+			"difficulty": "medium",
+			"score": 10,
+			"type": "truefalse",
+			"question": "Saturn's moon Titan is the largest moon in the Solar System?",
+			"hint": "The lagest moon in the Solar System has a diameter of 5,268km",
+			"answers" :
+			[
+				{"text": "True", "comment": "Saturn's moon Titan, with a diameter of 5,151km, is slightly smaller than Jupiter's moon Ganymede.", "isCorrect":false},
+				{"text": "False","comment": "Jupiter's moon Ganymede is largest moon in the Solar System, even bigger than the planet Mercury.", "isCorrect":true}
+			]
+		},
+
+		{
+			"id": 5,
+			"tags": ["planets", "space", "science"],
+			"difficulty": "medium",
+			"score": 10,
+			"type": "multiplechoice",
+			"picture":"quizzes/Solar_System/images/saturn_1675x1675.jpg",
+			"question": "How many moons does Saturn have?",
+			"hint": "Saturn has the most moons of all the planets in the Solar System.",
+			"explanation": "The moons of Saturn are numerous and diverse, ranging from tiny moonlets only tens of meters across to the enomormouse Titan, the second largest moon in the Solar System.",
+			"answers" :
+			[
+				{"text": "28", "comment": "Uranus has 28 moons, the large moons are Miranda, Ariel, Umbriel, Titania, and Oberon.", "isCorrect":false},
+				{"text": "16", "comment": "Neptune has 16 moons, by far the largest of it's moons is Triton.", "isCorrect":false},
+				{"text": "95", "comment": "Jupiter has 95 moons, the most massive of the moons are the four Galilean moons: Io, Europa, Ganymede, and Callisto.", "isCorrect":false},
+				{"text": "146", "comment": "As of January 2024, Saturn has 146 confirmed moons, making it the planet with the most known moons in the Solar System.", "isCorrect":true}
+			]
+		},
+
+		{
+			"id": 6,
+			"tags": ["astronauts", "space", "science"],
+			"difficulty": "medium",
+			"score": 20,
+			"type": "multiplechoice",
+			"question": "This is one of the astronauts from Apollo 11, can you name him?",
+			"picture":"quizzes/Solar_System/images/Astronaut-Michael-Collins-700x700(modified).jpg",
+			"hint": "This is the command module pilot for the Apollo 11 moon landing mission.",
+			"explanation": "Neil Armstrong and Edwin 'Buzz' Aldrin landed on the moon while Michael Collins orbited the moon in the command module.",
+			"answers" :
+			[
+				{"text": "Neil Armstrong", "comment": "Neil Armstrong was commander of the Apollo 11 flght, and the first man to walk on the moon.", "isCorrect":false},
+				{"text": "Edwin 'Buzz' Aldrin", "comment": "Buzz Aldrin was the lunar module pilot, and the second man to walk on the moon.", "isCorrect":false},
+				{"text": "Michael Collins", "comment": "Michael Collins was the command module pilot, he remained in orbit around the moon while Neil Armstrong and Buzz Aldrin walked on the moon.", "isCorrect":true},
+				{"text": "Charles 'Pete' Conrad", "comment": "Pete Conrad commanded Apollo 12 and was the third man to walk on the moon.", "isCorrect":false}
+			]
+		},
+
+		{
+			"id": 7,
+			"tags": ["spaceflight", "space", "science"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "Which of the following is not a valid name for an apollo lunar lander.",
+			"picture":"quizzes/Solar_System/images/lunarLander_700x700.jpg",
+			"hint": "This is the command module pilot for the Apollo 11 moon landing mission.",
+			"explanation": "The Apollo lunar landers were given their names and nicknames by NASA and the astronauts themselves.",
+			"answers" :
+			[
+				{"text": "Spider", "comment": "Spider was the name of LM-3 which flew on Apollo 9.", "isCorrect":false},
+				{"text": "Snoopy", "comment": "Snoopy was the name of LM-4 which flew on Apollo 10.", "isCorrect":false},
+				{"text": "Eagle", "comment": "Eagle was the name of LM-5 which flew on Apollo 11. This touched down on the moon with astronauts Neil Armstrong and Buzz Aldrin.", "isCorrect":false},
+				{"text": "Enterprise", "comment": "Enterprise was the name of the first Space Shuttle used for atmospheric testing.", "isCorrect":true}
+			]
+		},
+
+		{
+			"id": 8,
+			"tags": ["spaceflight", "space", "science"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "Which apollo mision used this flight badge?",
+			"picture":"quizzes/Solar_System/images/apollo11_flightBadge_noText_700x700.png",
+			"hint": "The 'eagle' is a massive give-away!",
+			"explanation": "The American eagle, symbolic of the United States, was about to land on the Moon. In its talons, an olive branch indicated the crew 'came in peace for all mankind.'",
+			"answers" :
+			[
+				{"text": "Apollo 10", "comment": "Although Apollo 10 did not land, the prominence of the Roman Numeral X on the flight patch indicated the mission would make a significant contribution to the Apollo program", "isCorrect":false},
+				{"text": "Apollo 11", "comment": "'The eagle has landed' - This is the flight patch for the Apollo 11 moon landing.'", "isCorrect":true},
+				{"text": "Apollo 12", "comment": "Apollo 12 flight patch had an American clipper ship and blue-and-gold motif signified an all-Navy crew and related the era of the clipper ship to the era of space flight.", "isCorrect":false},
+				{"text": "Apollo 13", "comment": "The Apollo 13 flight patch included the Latin phrase 'Ex Luna, Scientia' meaning ;From the Moon, Knowledge.'", "isCorrect":false}
+			]
+		},
+
+		{
+			"id": 9,
+			"tags": ["planets", "space", "science"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"question": "What is the hottest planet in the solar system?",
+			"hint": "It's not the closest planet to the Sun!",
+			"explanation": "Venus is the hottest planet in our solar system. Despite not being the closest to the Sun (that's Mercury), Venus has a thick atmosphere made mostly of carbon dioxide, which traps heat from the Sun.",
+			"answers" :
+			[
+				{"text": "Mercury", "comment": "Although Mercury is the closest planet to the Sun, it is not the hottest planet - temperatures range from -170°C to 420°C ", "isCorrect":false},
+				{"text": "Venus", "comment": "Due to the effects of a runaway greenhouse effect, Venus has a mean temperature of 464°C making it hotter than the planet Mercury.", "isCorrect":true},
+				{"text": "Mars", "comment": "Mars is a cold planet with temperatures ranging from -78.5°C to 5.7°C", "isCorrect":false},
+				{"text": "Jupiter", "comment": "The average temperature on Jupiter is -145°C", "isCorrect":false}
+			]
+		},
+
+		{
+			"id": 10,
+			"tags": ["stars", "space", "science"],
+			"difficulty": "easy",
+			"score": 10,
+			"type": "multiplechoice",
+			"picture":"quizzes/Solar_System/images/orion-constellation.jpg",
+			"question": "What is the name of this constellation?",
+			"hint": "This constellation is alo know as 'the hunter'",
+			"explanation": "The Orion Constellation is probably one of the most well known and easily recognizable constellations in the night sky, easily spotted even by those who are not star-struck. Also known as the hunter, he stands proudly in the sky with his belt of three stars in a line shining brightly.",
+			"answers" :
+			[
+				{"text": "Orion", "comment": "The brightest Orion star in the constellation is Rigel, a blue supergiant, also notable is Betelgeuse, a red supergiant star.", "isCorrect":true},
+				{"text": "Ursa Major", "comment": "Ursa Major, also known as Great Bear,is the third largest of the known constellations.", "isCorrect":false},
+				{"text": "Pegasus", "comment": "Named for the winged horse in Greek mythology, Pegasus is made up of a square set of four stars with others surrounding it.", "isCorrect":false},
+				{"text": "Cassiopeia", "comment": "Cassiopeia is also known as the ‘W’ constellation because of its distinct W shape that is formed by the five brightest stars within the constellation.", "isCorrect":false}
+			]
+		},
+		
+		{
+			"id": 11,
+			"tags": ["planets", "space", "science"],
+			"difficulty": "easy",
+			"score": 5,
+			"type": "multiplechoice",
+			"question": "Which planet in our solar system is known as the Red Planet due to iron oxide prevalent on its surface?",
+			"hint": "Think of the terrestrial planet located immediately after Earth in the order from the Sun.",
+			"explanation": "The rocks, soil, and dust on Mars contain a huge amount of iron. Long ago, this iron reacted with oxygen and water, causing it to rust and turn a bright red-orange color.",
+            "answerPicture": "quizzes/Solar_System/images/mars.png",
+			"answers" :
+			[
+				{"text": "Venus", "comment": "Incorrect. Venus is the hottest planet in our solar system, famous for its thick, toxic atmosphere and extreme greenhouse effect, not its reddish appearance.", "isCorrect":false},
+				{"text": "Mars", "comment": "Correct! Mars is called the Red Planet because of the abundant iron oxide (rust) covering its landscape.", "isCorrect":true},
+				{"text": "Mercury", "comment": "Incorrect. Mercury is a rocky, cratered planet closest to the Sun with a grayish appearance.", "isCorrect":false},
+				{"text": "Jupiter", "comment": "Incorrect. Jupiter is a gas giant known for its swirling cloud bands and the Great Red Spot, but it is not the 'Red Planet'.", "isCorrect":false}
+			]
+		},
+
+		{
+			"id": 12,
+			"tags": ["space", "science"],
+			"difficulty": "easy",
+			"score": 5,
+			"type": "multiplechoice",
+			"question": "Launched into low Earth orbit in 1990, which legendary space telescope revolutionized modern astronomy by capturing deep-space images free from atmospheric distortion?",
+			"hint": "This telescope is named after an American astronomer who confirmed that the universe is expanding.",
+			"explanation": "",
+            "answerPicture": "quizzes/Solar_System/images/Hubble.jpg",
+			"answers" :
+			[
+				{"text": "Hubble Space Telescope", "comment": "Correct! The Hubble Space Telescope has provided invaluable data and iconic images of distant galaxies since its 1990 deployment.", "isCorrect":true},
+				{"text": "James Webb Space Telescope", "comment": "Incorrect. While extremely powerful, the James Webb Space Telescope was launched much later, in late 2021, and operates primarily in the infrared spectrum.", "isCorrect":false},
+				{"text": "Kepler Space Telescope", "comment": "Incorrect. Kepler was a space observatory dedicated specifically to discovering Earth-sized exoplanets, not general deep-space imaging.", "isCorrect":false},
+				{"text": "Spitzer Space Telescope", "comment": "Incorrect. Spitzer was an infrared space telescope launched in 2003, succeeding earlier infrared missions rather than being the 1990 optical/ultraviolet pioneer.", "isCorrect":false}
+			]
+		},
+
+		{
+			"id": 13,
+			"tags": ["space", "science", "cosmos"],
+			"difficulty": "easy",
+			"score": 5,
+			"type": "multiplechoice",
+			"question": "What type of celestial object features a gravitational field so intensely powerful that not even particles or electromagnetic radiation such as light can escape from it once past a certain threshold?",
+			"hint": "Its name literally reflects its property of absorbing all light that hits it, making it completely dark and invisible directly.",
+			"explanation": "",
+			"answers" :
+			[
+				{"text": "White Dwarf ", "comment": "Incorrect. A white dwarf is the dense stellar remnant left over after a low-to-medium-mass star exhausts its nuclear fuel, retaining a surface and emitting light.", "isCorrect":false},
+				{"text": "Magnetar", "comment": "Incorrect, A magnetar is a type of neutron star with an extremely powerful magnetic field, but it does not trap light completely.", "isCorrect":false},
+				{"text": "Red Supergiant", "comment": "Incorrect. A red supergiant is a massive, highly luminous star in a late stage of stellar evolution, characterized by a huge volume and cool surface temperature.", "isCorrect":false},
+				{"text": "Black Hole", "comment": "Correct! A black hole is a region of spacetime where gravity is so strong that nothing—no pieces of matter or light—can escape from inside its event horizon.", "isCorrect":true}
+			]
+		}
+
+
+	]
+		
+}

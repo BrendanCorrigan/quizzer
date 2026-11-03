@@ -1,0 +1,718 @@
+{
+	"name": "Popular Science Quiz",
+	"description": "How well do you science stuff?",
+	"icon": "images/PopSci.png",
+	"category": "Popular Science",
+  	"difficulty": "easy",
+    "author": "ChatGPT",
+	
+	"ratings": {
+		"Professor Hannah Fry watch out!":90,
+		"Solid Science Teacher grade":70,
+		"Yep, you know the basics":50,
+		"Okay, keep taking the leeches":30,
+		"Flat earth society is calling for you":0
+	},
+	"questions":[	
+  {
+    "id": 1,
+    "tags": ["space", "astronomy", "planets"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which planet is known as the Red Planet?",
+    "answers": [
+      {"text": "Mars", "comment": "Iron-rich dust gives Mars much of its reddish appearance.", "isCorrect": true},
+      {"text": "Venus", "comment": "Venus is covered by thick clouds and has an extremely hot surface."},
+      {"text": "Jupiter", "comment": "Jupiter is the largest planet in the Solar System."},
+      {"text": "Mercury", "comment": "Mercury is the closest planet to the Sun."}
+    ]
+  },
+  {
+    "id": 2,
+    "tags": ["space", "astronomy", "stars"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "What is the star at the centre of our Solar System?",
+    "answers": [
+      {"text": "Sirius", "comment": "Sirius is the brightest star in Earth's night sky."},
+      {"text": "The Sun", "comment": "The Sun is the star around which Earth and the other planets orbit.", "isCorrect": true},
+      {"text": "Polaris", "comment": "Polaris is commonly known as the North Star."},
+      {"text": "Proxima Centauri", "comment": "Proxima Centauri is the nearest known star beyond our Solar System."}
+    ]
+  },
+  {
+    "id": 3,
+    "tags": ["space", "astronomy", "moons"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "What is Earth's natural satellite called?",
+    "answers": [
+      {"text": "Europa", "comment": "Europa is a moon of Jupiter."},
+      {"text": "Titan", "comment": "Titan is a moon of Saturn."},
+      {"text": "The Moon", "comment": "The Moon is Earth's natural satellite.", "isCorrect": true},
+      {"text": "Phobos", "comment": "Phobos is one of Mars's two moons."}
+    ]
+  },
+  {
+    "id": 4,
+    "tags": ["physics", "gravity"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which force keeps planets in orbit around the Sun?",
+    "answers": [
+      {"text": "Friction", "comment": "Friction resists motion between surfaces in contact."},
+      {"text": "Magnetism", "comment": "Magnetism affects magnetic materials and moving electric charges."},
+      {"text": "Sound", "comment": "Sound is a vibration that travels through a medium."},
+      {"text": "Gravity", "comment": "Gravity attracts objects with mass and governs planetary orbits.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 5,
+    "tags": ["biology", "plants", "photosynthesis"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "What is the process by which green plants use sunlight to make sugars?",
+    "answers": [
+      {"text": "Photosynthesis", "comment": "Photosynthesis uses light energy to make sugars from carbon dioxide and water.", "isCorrect": true},
+      {"text": "Fermentation", "comment": "Fermentation releases energy from sugars without requiring oxygen."},
+      {"text": "Digestion", "comment": "Digestion breaks down food into smaller substances."},
+      {"text": "Evaporation", "comment": "Evaporation is the change from liquid to gas."}
+    ]
+  },
+  {
+    "id": 6,
+    "tags": ["chemistry", "elements"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "What is the chemical symbol for oxygen?",
+    "answers": [
+      {"text": "Ox", "comment": "Ox is not the standard chemical symbol for oxygen."},
+      {"text": "Og", "comment": "Og is the symbol for oganesson."},
+      {"text": "O", "comment": "O is the chemical symbol for oxygen.", "isCorrect": true},
+      {"text": "C", "comment": "C is the chemical symbol for carbon."}
+    ]
+  },
+  {
+    "id": 7,
+    "tags": ["biology", "human-body", "organs"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which organ pumps blood around the human body?",
+    "answers": [
+      {"text": "The liver", "comment": "The liver processes nutrients and performs many chemical functions."},
+      {"text": "The heart", "comment": "The heart contracts to circulate blood through the body and lungs.", "isCorrect": true},
+      {"text": "The stomach", "comment": "The stomach helps break down food."},
+      {"text": "The kidney", "comment": "The kidneys filter blood and help regulate fluid balance."}
+    ]
+  },
+  {
+    "id": 8,
+    "tags": ["earth-science", "geology", "volcanoes"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "What is molten rock called while it is beneath Earth's surface?",
+    "answers": [
+      {"text": "Lava", "comment": "Molten rock is called lava after it reaches the surface."},
+      {"text": "Granite", "comment": "Granite is a type of solid igneous rock."},
+      {"text": "Quartz", "comment": "Quartz is a common mineral."},
+      {"text": "Magma", "comment": "Molten rock beneath Earth's surface is called magma.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 9,
+    "tags": ["physics", "light", "speed"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which of these travels fastest through a vacuum?",
+    "answers": [
+      {"text": "Sound", "comment": "Sound requires a medium and cannot travel through a vacuum."},
+      {"text": "Light", "comment": "Light travels through a vacuum at about 300,000 kilometres per second.", "isCorrect": true},
+      {"text": "A commercial aeroplane", "comment": "An aeroplane travels far slower than light."},
+      {"text": "An ocean wave", "comment": "Ocean waves travel far slower than light."}
+    ]
+  },
+  {
+    "id": 10,
+    "tags": ["biology", "cells", "genetics"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which molecule carries most genetic information in living organisms?",
+    "answers": [
+      {"text": "Starch", "comment": "Starch is a carbohydrate used for energy storage in plants."},
+      {"text": "Chlorophyll", "comment": "Chlorophyll absorbs light for photosynthesis."},
+      {"text": "DNA", "comment": "DNA stores hereditary instructions in almost all living organisms.", "isCorrect": true},
+      {"text": "Haemoglobin", "comment": "Haemoglobin carries oxygen in red blood cells."}
+    ]
+  },
+  {
+    "id": 11,
+    "tags": ["space", "astronomy", "planets"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which planet has the most prominent ring system?",
+    "answers": [
+      {"text": "Saturn", "comment": "Saturn's extensive rings contain mainly ice particles, along with rock and dust.", "isCorrect": true},
+      {"text": "Earth", "comment": "Earth does not have a prominent ring system."},
+      {"text": "Mars", "comment": "Mars has no large, prominent ring system."},
+      {"text": "Venus", "comment": "Venus has no prominent ring system."}
+    ]
+  },
+  {
+    "id": 12,
+    "tags": ["physics", "electricity", "units"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What is the unit of electrical resistance?",
+    "answers": [
+      {"text": "Watt", "comment": "A watt measures power."},
+      {"text": "Volt", "comment": "A volt measures electric potential difference."},
+      {"text": "Ampere", "comment": "An ampere measures electric current."},
+      {"text": "Ohm", "comment": "Electrical resistance is measured in ohms, symbol Ω.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 13,
+    "tags": ["chemistry", "pH", "acids"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "At room temperature, how would you describe a solution with a pH of 2?",
+    "answers": [
+      {"text": "Neutral", "comment": "A neutral aqueous solution is around pH 7 at room temperature."},
+      {"text": "Acidic", "comment": "A pH below 7 indicates an acidic solution.", "isCorrect": true},
+      {"text": "Alkaline", "comment": "Alkaline solutions have pH values above 7."},
+      {"text": "Always harmless", "comment": "A low pH does not indicate that a solution is harmless."}
+    ]
+  },
+  {
+    "id": 14,
+    "tags": ["biology", "genetics", "chromosomes"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "How many pairs of chromosomes are normally found in a human body cell?",
+    "answers": [
+      {"text": "12 pairs", "comment": "This is fewer than the usual number in human body cells."},
+      {"text": "46 pairs", "comment": "Human body cells normally contain 46 chromosomes in total, not 46 pairs."},
+      {"text": "23 pairs", "comment": "Most human body cells contain 46 chromosomes arranged in 23 pairs.", "isCorrect": true},
+      {"text": "One pair", "comment": "Human body cells contain many chromosome pairs."}
+    ]
+  },
+  {
+    "id": 15,
+    "tags": ["earth-science", "atmosphere", "gases"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which gas makes up the largest proportion of Earth's atmosphere?",
+    "answers": [
+      {"text": "Oxygen", "comment": "Oxygen makes up about 21% of dry air."},
+      {"text": "Carbon dioxide", "comment": "Carbon dioxide is present in a much smaller concentration."},
+      {"text": "Hydrogen", "comment": "Hydrogen is present only in trace amounts in the lower atmosphere."},
+      {"text": "Nitrogen", "comment": "Nitrogen makes up about 78% of dry air.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 16,
+    "tags": ["physics", "energy", "units"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What is the SI unit of energy?",
+    "answers": [
+      {"text": "Newton", "comment": "A newton is the SI unit of force."},
+      {"text": "Joule", "comment": "The joule is the SI unit of energy and work.", "isCorrect": true},
+      {"text": "Pascal", "comment": "A pascal is the SI unit of pressure."},
+      {"text": "Tesla", "comment": "A tesla is the SI unit of magnetic flux density."}
+    ]
+  },
+  {
+    "id": 17,
+    "tags": ["chemistry", "periodic-table", "elements"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which element has the chemical symbol Fe?",
+    "answers": [
+      {"text": "Fluorine", "comment": "Fluorine's chemical symbol is F."},
+      {"text": "Francium", "comment": "Francium's chemical symbol is Fr."},
+      {"text": "Iron", "comment": "Fe comes from the Latin name ferrum.", "isCorrect": true},
+      {"text": "Fermium", "comment": "Fermium's chemical symbol is Fm."}
+    ]
+  },
+  {
+    "id": 18,
+    "tags": ["biology", "human-body", "blood"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which blood cells are primarily responsible for carrying oxygen?",
+    "answers": [
+      {"text": "White blood cells", "comment": "White blood cells are important in immune defence."},
+      {"text": "Platelets", "comment": "Platelets help blood clot."},
+      {"text": "Stem cells", "comment": "Stem cells can develop into specialised cells."},
+      {"text": "Red blood cells", "comment": "Red blood cells contain haemoglobin, which binds oxygen.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 19,
+    "tags": ["space", "astronomy", "galaxies"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What is the name of the galaxy that contains our Solar System?",
+    "answers": [
+      {"text": "Andromeda", "comment": "Andromeda is a neighbouring large galaxy."},
+      {"text": "The Milky Way", "comment": "Our Solar System is located in the Milky Way galaxy.", "isCorrect": true},
+      {"text": "The Whirlpool Galaxy", "comment": "The Whirlpool Galaxy is a separate galaxy, also known as M51."},
+      {"text": "The Sombrero Galaxy", "comment": "The Sombrero Galaxy is outside our own galaxy."}
+    ]
+  },
+  {
+    "id": 20,
+    "tags": ["technology", "computing", "binary"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which two digits are used in the binary number system?",
+    "answers": [
+      {"text": "1 and 2", "comment": "Standard binary notation uses 0 and 1."},
+      {"text": "0 to 9", "comment": "These are the digits used in the decimal number system."},
+      {"text": "0 and 1", "comment": "Binary is a base-2 system that uses only 0 and 1.", "isCorrect": true},
+      {"text": "A and B", "comment": "Letters are not used as the digits in standard binary notation."}
+    ]
+  },
+  {
+    "id": 21,
+    "tags": ["biology", "ecology", "food-chains"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "In a food chain, what is an organism that makes its own food, such as a green plant, called?",
+    "answers": [
+      {"text": "A predator", "comment": "A predator hunts and eats other organisms."},
+      {"text": "A producer", "comment": "Producers make organic food, often using energy from sunlight.", "isCorrect": true},
+      {"text": "A decomposer", "comment": "Decomposers break down dead organic matter."},
+      {"text": "A parasite", "comment": "A parasite obtains resources from a host organism."}
+    ]
+  },
+  {
+    "id": 22,
+    "tags": ["physics", "sound", "waves"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Why can sound not travel through a vacuum?",
+    "answers": [
+      {"text": "It needs a material medium to carry vibrations", "comment": "Sound is a mechanical wave that travels through particles in a medium.", "isCorrect": true},
+      {"text": "Sound is made only of light", "comment": "Sound and light are different types of waves."},
+      {"text": "Gravity blocks it", "comment": "Gravity does not block sound; a vacuum lacks particles to transmit it."},
+      {"text": "A vacuum is too cold", "comment": "Temperature is not the reason sound cannot travel through a vacuum."}
+    ]
+  },
+  {
+    "id": 23,
+    "tags": ["chemistry", "atoms", "particles"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which subatomic particle has a negative electric charge?",
+    "answers": [
+      {"text": "Proton", "comment": "Protons carry a positive electric charge."},
+      {"text": "Neutron", "comment": "Neutrons have no net electric charge."},
+      {"text": "Electron", "comment": "Electrons carry a negative electric charge.", "isCorrect": true},
+      {"text": "Alpha particle", "comment": "An alpha particle has a positive charge of +2."}
+    ]
+  },
+  {
+    "id": 24,
+    "tags": ["biology", "human-body", "hormones"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which organ produces insulin?",
+    "answers": [
+      {"text": "Gallbladder", "comment": "The gallbladder stores and concentrates bile."},
+      {"text": "Spleen", "comment": "The spleen helps filter blood and supports immune function."},
+      {"text": "Lung", "comment": "The lungs exchange oxygen and carbon dioxide."},
+      {"text": "Pancreas", "comment": "Specialised beta cells in the pancreas produce insulin.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 25,
+    "tags": ["earth-science", "oceans", "chemistry"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What is the main reason seawater tastes salty?",
+    "answers": [
+      {"text": "Suspended sand", "comment": "Sand is not the main cause of seawater's salty taste."},
+      {"text": "Dissolved salts, especially sodium chloride", "comment": "Seawater contains dissolved ions, including sodium and chloride.", "isCorrect": true},
+      {"text": "Dissolved oxygen", "comment": "Dissolved oxygen does not make seawater salty."},
+      {"text": "Tiny sea animals", "comment": "Organisms are not the main source of seawater's salty taste."}
+    ]
+  },
+  {
+    "id": 26,
+    "tags": ["space", "astronomy", "light-years"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "A light-year is a unit used to measure what?",
+    "answers": [
+      {"text": "Time", "comment": "Despite the word 'year', a light-year measures distance."},
+      {"text": "Distance", "comment": "A light-year is the distance light travels in one year.", "isCorrect": true},
+      {"text": "Brightness", "comment": "Astronomers use other measurements to describe brightness."},
+      {"text": "Mass", "comment": "Mass is measured in units such as kilograms."}
+    ]
+  },
+  {
+    "id": 27,
+    "tags": ["physics", "magnetism", "materials"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which of these materials is strongly attracted to an ordinary magnet?",
+    "answers": [
+      {"text": "Glass", "comment": "Glass is not strongly attracted to an ordinary magnet."},
+      {"text": "Dry wood", "comment": "Dry wood is not strongly attracted to an ordinary magnet."},
+      {"text": "Iron", "comment": "Iron is ferromagnetic and is strongly attracted to magnets.", "isCorrect": true},
+      {"text": "Plastic", "comment": "Plastic is not strongly attracted to an ordinary magnet."}
+    ]
+  },
+  {
+    "id": 28,
+    "tags": ["biology", "evolution", "scientists"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which scientist is most closely associated with the theory of evolution by natural selection?",
+    "answers": [
+      {"text": "Isaac Newton", "comment": "Newton is best known for his laws of motion and universal gravitation."},
+      {"text": "Gregor Mendel", "comment": "Mendel's experiments helped establish the principles of inheritance."},
+      {"text": "Louis Pasteur", "comment": "Pasteur made major contributions to microbiology and germ theory."},
+      {"text": "Charles Darwin", "comment": "Darwin presented influential evidence for evolution by natural selection.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 29,
+    "tags": ["chemistry", "states-of-matter"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What is the change of state from a gas directly to a solid called?",
+    "answers": [
+      {"text": "Sublimation", "comment": "Sublimation is the direct change from solid to gas."},
+      {"text": "Deposition", "comment": "Deposition is the direct change from gas to solid.", "isCorrect": true},
+      {"text": "Melting", "comment": "Melting is the change from solid to liquid."},
+      {"text": "Condensation", "comment": "Condensation is the change from gas to liquid."}
+    ]
+  },
+  {
+    "id": 30,
+    "tags": ["technology", "medicine", "imaging"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which medical imaging technique uses strong magnetic fields and radio waves?",
+    "answers": [
+      {"text": "MRI", "comment": "Magnetic resonance imaging uses magnetic fields and radio-frequency signals.", "isCorrect": true},
+      {"text": "X-ray imaging", "comment": "X-ray imaging uses ionising radiation."},
+      {"text": "Ultrasound", "comment": "Ultrasound imaging uses high-frequency sound waves."},
+      {"text": "Thermometry", "comment": "Thermometry measures temperature rather than producing internal images."}
+    ]
+  },
+  {
+    "id": 31,
+    "tags": ["space", "astronomy", "black-holes"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What is the boundary around a black hole beyond which light cannot escape called?",
+    "answers": [
+      {"text": "Photosphere", "comment": "The photosphere is the visible surface layer of a star."},
+      {"text": "Asteroid belt", "comment": "An asteroid belt is a region containing many asteroids."},
+      {"text": "Event horizon", "comment": "The event horizon marks the boundary beyond which escape is impossible.", "isCorrect": true},
+      {"text": "Magnetopause", "comment": "A magnetopause is a boundary shaped by a magnetic field and surrounding plasma."}
+    ]
+  },
+  {
+    "id": 32,
+    "tags": ["physics", "relativity", "light"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "Approximately how fast does light travel through a vacuum?",
+    "answers": [
+      {"text": "30,000 kilometres per second", "comment": "This is about one tenth of the speed of light."},
+      {"text": "3,000 kilometres per second", "comment": "This is far below the speed of light in a vacuum."},
+      {"text": "3 million kilometres per second", "comment": "This is about ten times the actual speed."},
+      {"text": "300,000 kilometres per second", "comment": "Light travels at approximately 299,792 kilometres per second in a vacuum.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 33,
+    "tags": ["chemistry", "periodic-table", "atoms"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What does an element's atomic number tell you?",
+    "answers": [
+      {"text": "The number of protons in its nucleus", "comment": "An element's atomic number is defined by its number of protons.", "isCorrect": true},
+      {"text": "The number of neutrons in every atom", "comment": "Neutron numbers can vary between isotopes of the same element."},
+      {"text": "The number of electron shells", "comment": "The number of electron shells is not the definition of atomic number."},
+      {"text": "The atom's mass in grams", "comment": "Atomic number is not a measurement of mass."}
+    ]
+  },
+  {
+    "id": 34,
+    "tags": ["biology", "genetics", "RNA"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "Which type of RNA carries genetic instructions from DNA to the cell's protein-making machinery?",
+    "answers": [
+      {"text": "Transfer RNA (tRNA)", "comment": "Transfer RNA brings amino acids to the ribosome during protein synthesis."},
+      {"text": "Messenger RNA (mRNA)", "comment": "Messenger RNA carries a genetic message used to make a protein.", "isCorrect": true},
+      {"text": "Ribosomal RNA (rRNA)", "comment": "Ribosomal RNA forms a key structural and functional part of ribosomes."},
+      {"text": "MicroRNA", "comment": "MicroRNAs mainly help regulate gene expression."}
+    ]
+  },
+  {
+    "id": 35,
+    "tags": ["earth-science", "geology", "tectonic-plates"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What is the rigid outer layer of Earth, made up of the crust and uppermost mantle, called?",
+    "answers": [
+      {"text": "Outer core", "comment": "Earth's outer core is a liquid metallic layer deep inside the planet."},
+      {"text": "Asthenosphere", "comment": "The asthenosphere is a softer region of the upper mantle beneath the lithosphere."},
+      {"text": "Lithosphere", "comment": "The lithosphere includes the crust and rigid uppermost mantle and is divided into tectonic plates.", "isCorrect": true},
+      {"text": "Inner core", "comment": "Earth's inner core is the solid central region."}
+    ]
+  },
+  {
+    "id": 36,
+    "tags": ["physics", "quantum-physics", "particles"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "Which particle carries the electromagnetic force in the Standard Model of particle physics?",
+    "answers": [
+      {"text": "Gluon", "comment": "Gluons mediate the strong nuclear interaction."},
+      {"text": "Neutrino", "comment": "Neutrinos interact mainly through the weak force and gravity."},
+      {"text": "Higgs boson", "comment": "The Higgs boson is associated with the Higgs field."},
+      {"text": "Photon", "comment": "The photon is the quantum of the electromagnetic field.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 37,
+    "tags": ["astronomy", "cosmology", "galaxies"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What does redshift in light from a distant galaxy usually mean?",
+    "answers": [
+      {"text": "Its light has shifted towards longer wavelengths", "comment": "Cosmological redshift is associated with the expansion of the universe.", "isCorrect": true},
+      {"text": "The galaxy must look red to the human eye", "comment": "Redshift describes a wavelength shift, not simply an object's visible colour."},
+      {"text": "The galaxy has stopped moving", "comment": "Redshift does not mean an object has stopped moving."},
+      {"text": "The galaxy emits no visible light", "comment": "Redshifted light can still be visible, depending on the amount of shift."}
+    ]
+  },
+  {
+    "id": 38,
+    "tags": ["chemistry", "reactions", "catalysts"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What does a catalyst do in a chemical reaction?",
+    "answers": [
+      {"text": "Always increases the maximum amount of product", "comment": "A catalyst changes reaction rates, not the equilibrium yield under fixed conditions."},
+      {"text": "Increases the reaction rate without being consumed overall", "comment": "A catalyst provides an alternative reaction pathway with lower activation energy.", "isCorrect": true},
+      {"text": "Is always a liquid", "comment": "Catalysts can be solids, liquids, gases or biological molecules."},
+      {"text": "Makes every reaction release heat", "comment": "A catalyst does not determine whether a reaction releases or absorbs heat."}
+    ]
+  },
+  {
+    "id": 39,
+    "tags": ["biology", "immunology", "vaccines"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "How do vaccines generally help protect the body against an infectious disease?",
+    "answers": [
+      {"text": "They replace all white blood cells", "comment": "Vaccines do not replace white blood cells."},
+      {"text": "They kill every microbe in the body", "comment": "Vaccines do not eliminate all microbes from the body."},
+      {"text": "They train the immune system to recognise a pathogen or part of it", "comment": "Vaccination helps establish immune responses and often immune memory.", "isCorrect": true},
+      {"text": "They work only by lowering body temperature", "comment": "Lowering temperature is not how vaccines establish protection."}
+    ]
+  },
+  {
+    "id": 40,
+    "tags": ["biology", "human-body", "nervous-system"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which part of a neuron commonly receives signals from other neurons?",
+    "answers": [
+      {"text": "Axon terminals", "comment": "Axon terminals commonly transmit signals to other cells."},
+      {"text": "Myelin sheath", "comment": "Myelin insulates many axons and helps signals travel efficiently."},
+      {"text": "Red blood cells", "comment": "Red blood cells transport oxygen and are not neurons."},
+      {"text": "Dendrites", "comment": "Dendrites commonly receive incoming signals from other neurons.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 41,
+    "tags": ["space", "astronomy", "exoplanets"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What is an exoplanet?",
+    "answers": [
+      {"text": "A moon orbiting Earth", "comment": "Earth's Moon is a natural satellite within our Solar System."},
+      {"text": "A planet orbiting a star beyond our Solar System", "comment": "Exoplanets are planets outside our Solar System.", "isCorrect": true},
+      {"text": "An asteroid between Mars and Jupiter", "comment": "Asteroids are small rocky bodies, not planets orbiting other stars."},
+      {"text": "A star that has run out of fuel", "comment": "A star's evolutionary stage does not make it an exoplanet."}
+    ]
+  },
+  {
+    "id": 42,
+    "tags": ["physics", "thermodynamics", "temperature"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What is absolute zero on the Celsius temperature scale?",
+    "answers": [
+      {"text": "−100 °C", "comment": "This is extremely cold but remains above absolute zero."},
+      {"text": "0 °C", "comment": "Zero Celsius is the freezing point of pure water under standard conditions."},
+      {"text": "−273.15 °C", "comment": "Absolute zero is 0 kelvin, equivalent to −273.15 °C.", "isCorrect": true},
+      {"text": "−459 °C", "comment": "This is not the correct Celsius value; absolute zero is approximately −459.67 °F."}
+    ]
+  },
+  {
+    "id": 43,
+    "tags": ["chemistry", "isotopes", "atoms"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What are atoms of the same element with different numbers of neutrons called?",
+    "answers": [
+      {"text": "Ions", "comment": "Ions have a net electric charge due to gaining or losing electrons."},
+      {"text": "Molecules", "comment": "Molecules consist of atoms chemically bonded together."},
+      {"text": "Allotropes", "comment": "Allotropes are different structural forms of the same element."},
+      {"text": "Isotopes", "comment": "Isotopes have the same number of protons but different numbers of neutrons.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 44,
+    "tags": ["biology", "ecology", "biodiversity"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What does the term biodiversity mean?",
+    "answers": [
+      {"text": "The variety of life at genetic, species and ecosystem levels", "comment": "Biodiversity includes variation within species, between species and among ecosystems.", "isCorrect": true},
+      {"text": "The number of rocks in an area", "comment": "Rocks are not what biodiversity measures."},
+      {"text": "The amount of rainfall in a habitat", "comment": "Rainfall is an environmental factor, not biodiversity itself."},
+      {"text": "The total mass of one species only", "comment": "Biodiversity concerns variety rather than just the mass of one species."}
+    ]
+  },
+  {
+    "id": 45,
+    "tags": ["earth-science", "climate", "greenhouse-effect"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Which gas is a major contributor to the human-caused enhancement of the greenhouse effect?",
+    "answers": [
+      {"text": "Argon", "comment": "Argon is not a significant greenhouse gas."},
+      {"text": "Carbon dioxide", "comment": "Human activities, including burning fossil fuels, have increased atmospheric carbon dioxide.", "isCorrect": true},
+      {"text": "Neon", "comment": "Neon is present in trace amounts and is not a significant greenhouse gas."},
+      {"text": "Helium", "comment": "Helium is not a significant greenhouse gas."}
+    ]
+  },
+  {
+    "id": 46,
+    "tags": ["technology", "computing", "internet"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "What is the main role of the Domain Name System (DNS) on the internet?",
+    "answers": [
+      {"text": "Encrypting every internet message", "comment": "Encryption is provided by protocols and systems such as TLS, not DNS alone."},
+      {"text": "Physically connecting computers with cables", "comment": "DNS is a naming system, not physical networking hardware."},
+      {"text": "Translating domain names into IP addresses", "comment": "DNS helps devices find the network addresses associated with domain names.", "isCorrect": true},
+      {"text": "Storing all websites on one central computer", "comment": "Websites are hosted across many servers; DNS does not store all website content."}
+    ]
+  },
+  {
+    "id": 47,
+    "tags": ["biology", "medicine", "antibiotics"],
+    "difficulty": "medium",
+    "score": 20,
+    "type": "multiplechoice",
+    "question": "Why are antibiotics ineffective against viruses that cause illnesses such as the common cold?",
+    "answers": [
+      {"text": "Viruses are always larger than bacteria", "comment": "Viruses are generally much smaller than bacteria."},
+      {"text": "Antibiotics target bacterial structures or processes that viruses do not have", "comment": "Viruses rely on host cells and lack many of the targets antibiotics act on.", "isCorrect": true},
+      {"text": "Antibiotics only work at night", "comment": "Time of day is not why antibiotics fail against viruses."},
+      {"text": "Viruses contain no genetic material", "comment": "Viruses contain genetic material, either DNA or RNA."}
+    ]
+  },
+  {
+    "id": 48,
+    "tags": ["astronomy", "space", "dwarf-planets"],
+    "difficulty": "easy",
+    "score": 10,
+    "type": "multiplechoice",
+    "question": "Which object is classified as a dwarf planet in the Kuiper Belt?",
+    "answers": [
+      {"text": "The Moon", "comment": "The Moon is Earth's natural satellite."},
+      {"text": "The Sun", "comment": "The Sun is a star at the centre of our Solar System."},
+      {"text": "Europa", "comment": "Europa is a moon of Jupiter."},
+      {"text": "Pluto", "comment": "Pluto is a dwarf planet in the Kuiper Belt beyond Neptune.", "isCorrect": true}
+    ]
+  },
+  {
+    "id": 49,
+    "tags": ["physics", "nuclear-physics", "energy"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "What happens to a heavy atomic nucleus during nuclear fission?",
+    "answers": [
+      {"text": "It splits into smaller nuclei, releasing energy", "comment": "Fission splits a heavy nucleus and can release energy and neutrons.", "isCorrect": true},
+      {"text": "It combines with another nucleus to form a heavier one", "comment": "That describes nuclear fusion in broad terms."},
+      {"text": "It turns entirely into sound", "comment": "Fission does not turn a nucleus entirely into sound."},
+      {"text": "It loses all its protons instantly", "comment": "Fission does not involve every proton disappearing instantly."}
+    ]
+  },
+  {
+    "id": 50,
+    "tags": ["science-history", "physics", "scientists"],
+    "difficulty": "hard",
+    "score": 30,
+    "type": "multiplechoice",
+    "question": "Who formulated the three laws of motion and the law of universal gravitation?",
+    "answers": [
+      {"text": "Albert Einstein", "comment": "Einstein developed the theories of special and general relativity."},
+      {"text": "Galileo Galilei", "comment": "Galileo made foundational contributions to the study of motion and astronomy."},
+      {"text": "Isaac Newton", "comment": "Newton published these laws in his 1687 work Principia.", "isCorrect": true},
+      {"text": "Michael Faraday", "comment": "Faraday made major contributions to electromagnetism and electrochemistry."}
+    ]
+  }
+]
+}
