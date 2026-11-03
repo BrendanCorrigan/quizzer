@@ -1,0 +1,308 @@
+
+{
+    "name": "The World Geography Challenge",
+    "description": "How well do you really know the world?",
+    "icon": "images/geography.png",
+    "category": "Geography",
+    "difficulty": "Mixed",
+
+    "ratings": {
+        "A true globe-trotting genius! You could navigate the world without a map!": 90,
+        "Excellent! Your geographical knowledge is truly world-class!": 70,
+        "Not bad! You've clearly travelled around the atlas a few times!": 50,
+        "Were you asleep during geography lessons?": 30,
+        "Perhaps you should stick to using Google Maps!": 0
+    },
+
+    "questions": [
+        {
+            "id": 1,
+            "tags": ["Geography", "Capitals", "Europe"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "What is the capital city of France?",
+            "answerPicture": "quizzes/Geography/images/paris.png",
+            "answers": [
+                {
+                    "text": "Madrid",
+                    "comment": "Madrid is the capital of Spain."
+                },
+                {
+                    "text": "Paris",
+                    "comment": "Correct! Paris is the capital and largest city of France.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Rome",
+                    "comment": "Rome is the capital of Italy."
+                },
+                {
+                    "text": "Berlin",
+                    "comment": "Berlin is the capital of Germany."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "tags": ["Geography", "Continents", "World"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Which is the largest continent in the world by land area?",
+            "hint": "It is home to countries such as China, India and Russia.",
+            "explanation": "Asia covers approximately 44.6 million square kilometres, making it the largest continent.",
+            "answers": [
+                {
+                    "text": "Africa",
+                    "comment": "Africa is the second-largest continent."
+                },
+                {
+                    "text": "North America",
+                    "comment": "North America is the third-largest continent."
+                },
+                {
+                    "text": "Asia",
+                    "comment": "Correct! Asia is the largest continent by land area.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Europe",
+                    "comment": "Europe is much smaller than Asia."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "tags": ["Geography", "Mountains", "Physical Geography"],
+            "difficulty": "medium",
+            "score": 20,
+            "type": "multiplechoice",
+            "question": "What is the highest mountain in the world above sea level?",
+            "hint": "It lies in the Himalayas, on the border between Nepal and China.",
+            "explanation": "Mount Everest reaches approximately 8,849 metres above sea level.",
+            "answerPicture": "quizzes/Geography/images/Everest.png",
+            "answers": [
+                {
+                    "text": "K2",
+                    "comment": "K2 is the world's second-highest mountain above sea level."
+                },
+                {
+                    "text": "Kilimanjaro",
+                    "comment": "Kilimanjaro is the highest mountain in Africa."
+                },
+                {
+                    "text": "Mount Everest",
+                    "comment": "Correct! Mount Everest is the highest mountain above sea level.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Mont Blanc",
+                    "comment": "Mont Blanc is the highest mountain in the Alps."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "tags": ["Geography", "Rivers", "South America"],
+            "difficulty": "medium",
+            "score": 20,
+            "type": "multiplechoice",
+            "question": "Which river carries the greatest volume of water in the world?",
+            "hint": "It flows through the world's largest tropical rainforest.",
+            "explanation": "The Amazon River has the greatest discharge of any river on Earth.",
+            "answers": [
+                {
+                    "text": "Nile",
+                    "comment": "The Nile is traditionally regarded as the world's longest river."
+                },
+                {
+                    "text": "Amazon",
+                    "comment": "Correct! The Amazon carries more water than any other river.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Mississippi",
+                    "comment": "The Mississippi is one of North America's major river systems."
+                },
+                {
+                    "text": "Yangtze",
+                    "comment": "The Yangtze is the longest river in Asia."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "tags": ["Geography", "Oceans", "World"],
+            "difficulty": "easy",
+            "score": 10,
+            "type": "multiplechoice",
+            "question": "Which is the largest ocean on Earth?",
+            "answers": [
+                {
+                    "text": "Atlantic Ocean",
+                    "comment": "The Atlantic is the second-largest ocean."
+                },
+                {
+                    "text": "Indian Ocean",
+                    "comment": "The Indian Ocean is the third-largest ocean."
+                },
+                {
+                    "text": "Arctic Ocean",
+                    "comment": "The Arctic Ocean is the smallest ocean."
+                },
+                {
+                    "text": "Pacific Ocean",
+                    "comment": "Correct! The Pacific Ocean is the largest and deepest ocean.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "tags": ["Geography", "Countries", "Africa"],
+            "difficulty": "medium",
+            "score": 20,
+            "type": "multiplechoice",
+            "question": "Which African country has the largest population?",
+            "hint": "Its largest city is Lagos, although its capital is Abuja.",
+            "explanation": "Nigeria is Africa's most populous country, with a population exceeding 200 million.",
+            "answerPicture": "quizzes/Geography/images/Nigeria.png",
+            "answers": [
+                {
+                    "text": "Egypt",
+                    "comment": "Egypt is one of Africa's most populous countries, but it is not the largest by population."
+                },
+                {
+                    "text": "South Africa",
+                    "comment": "South Africa has a large population, but Nigeria has more people."
+                },
+                {
+                    "text": "Nigeria",
+                    "comment": "Correct! Nigeria is Africa's most populous country.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Ethiopia",
+                    "comment": "Ethiopia is highly populous, but Nigeria has a larger population."
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "tags": ["Geography", "Deserts", "Physical Geography"],
+            "difficulty": "hard",
+            "score": 30,
+            "type": "multiplechoice",
+            "question": "Which is the largest desert in the world?",
+            "hint": "A desert is defined by its lack of precipitation, not by how hot it is.",
+            "explanation": "Antarctica is a polar desert. The Sahara is the largest hot desert, but Antarctica is the largest desert overall.",
+            "answers": [
+                {
+                    "text": "Sahara Desert",
+                    "comment": "The Sahara is the world's largest hot desert, but not the largest desert overall."
+                },
+                {
+                    "text": "Gobi Desert",
+                    "comment": "The Gobi is a large desert in Asia."
+                },
+                {
+                    "text": "Arabian Desert",
+                    "comment": "The Arabian Desert is one of the largest hot deserts."
+                },
+                {
+                    "text": "Antarctica",
+                    "comment": "Correct! Antarctica is the largest desert in the world.",
+                    "isCorrect": true
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "tags": ["Geography", "Countries", "Europe"],
+            "difficulty": "hard",
+            "score": 30,
+            "type": "multiplechoice",
+            "question": "Which European country has the greatest number of natural lakes?",
+            "hint": "This Nordic country is famous for its thousands of lakes and forests.",
+            "explanation": "Finland is often called the Land of a Thousand Lakes, although the exact count depends on the minimum lake size used.",
+            "answers": [
+                {
+                    "text": "Sweden",
+                    "comment": "Sweden has many lakes, but Finland is famous for having an exceptionally high lake count."
+                },
+                {
+                    "text": "Finland",
+                    "comment": "Correct! Finland is renowned for its vast number of lakes.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Norway",
+                    "comment": "Norway is famous for its fjords and mountainous landscape."
+                },
+                {
+                    "text": "Iceland",
+                    "comment": "Iceland has numerous lakes, but far fewer than Finland."
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "tags": ["Geography", "Borders", "World"],
+            "difficulty": "hard",
+            "score": 30,
+            "type": "multiplechoice",
+            "question": "Which two countries share the longest international land border in the world?",
+            "hint": "One is the world's second-largest country by land area, and the other is its southern neighbour.",
+            "explanation": "The Canada–United States border is approximately 8,891 kilometres long, including the Alaska–Canada section.",
+            "answers": [
+                {
+                    "text": "Russia and China",
+                    "comment": "Their border is long, but it is shorter than the Canada–United States border."
+                },
+                {
+                    "text": "Argentina and Chile",
+                    "comment": "This is one of the longest borders in South America."
+                },
+                {
+                    "text": "Canada and the United States",
+                    "comment": "Correct! Canada and the United States share the world's longest international land border.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "India and China",
+                    "comment": "Their border is long and disputed, but it is not the longest."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "tags": ["Geography", "Physical Geography", "World"],
+            "difficulty": "hard",
+            "score": 30,
+            "type": "multiplechoice",
+            "question": "Which of the following countries is crossed by both the Equator and the Tropic of Capricorn?",
+            "hint": "Look for a large South American country that stretches across much of the continent.",
+            "explanation": "Brazil is crossed by the Equator in the north and the Tropic of Capricorn in the south.",
+            "answers": [
+                {
+                    "text": "Argentina",
+                    "comment": "Argentina is crossed by the Tropic of Capricorn but not the Equator."
+                },
+                {
+                    "text": "Brazil",
+                    "comment": "Correct! Brazil is crossed by both the Equator and the Tropic of Capricorn.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Peru",
+                    "comment": "Peru is crossed by the Equator's general region only outside its territory; it is not crossed by the Tropic of Capricorn."
+                },
+                {
+                    "text": "Colombia",
+                    "comment": "Colombia is crossed by the Equator but not the Tropic of Capricorn."
+                }
+            ]
+        }
+    ]
+}
