@@ -198,7 +198,10 @@ class QuizCard(tk.Canvas):
         """Make the canvas exactly tall enough for its content + padding."""
 #        self._inner.update_idletasks()
         wanted = self._inner.winfo_reqheight() + 2 * QuizCard.CARD_PADDING
-        if int(self.cget("height")) != wanted:
+        try:
+            if int(self.cget("height")) != wanted:
+                    self.configure(height=wanted)
+        except:
             self.configure(height=wanted)
 
     # -----------------------------------------------------------------------------------------------------------------
